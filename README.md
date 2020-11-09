@@ -1,10 +1,10 @@
 # WebsiteJon
 Frontendwebsite
-<body>
-<p style="color:blue;> Piste blauw </p>
+
+Piste blauw
           
-<p> waarschijnlijk extra aandacht aan de surface laag </p>
+Waarschijnlijk extra aandacht aan de surface laag
 
-<p> website: https://www.underarmour.nl/nl-nl/ </p>
+website: https://www.underarmour.nl/nl-nl/
 
-</body>
+
