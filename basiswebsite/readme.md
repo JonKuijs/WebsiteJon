@@ -71,9 +71,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** blauw
 
-**Je focus:** -surface plane-
+**Je focus:** surface plane
 
-**Je opdracht:** -https://www.underarmour.nl/nl-nl/-
+**Je opdracht:** https://www.underarmour.nl/nl-nl/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
