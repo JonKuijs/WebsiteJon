@@ -62,7 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
 
 
 
@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/homepage.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/homepage.PNG" width="375px" alt="home page van underarmor">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/detailpage.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/detailpage.PNG" width="375px" alt="detail pagina van under armor">
