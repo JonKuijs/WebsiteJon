@@ -42,12 +42,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
-<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
-<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
-<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
-<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
-<img src="images/breakdownschets.svg" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/1.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/2.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/3.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/4.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/5.png" width="375px" alt="Breakdown schets van underarmour">
+
 
 ### Agenda voor meeting
  
