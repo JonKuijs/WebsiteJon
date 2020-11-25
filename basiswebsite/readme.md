@@ -37,8 +37,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
-
--dit ging goed & dit was lastig-
+De basis dingen en selectoren gingen goed maar als er nieuwe dingen kwamen was het vaak lastig omdit in de site te krijgen
 
 **Screenshot(s):**
 
@@ -47,6 +46,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 <img src="images/3.png" width="375px" alt="Breakdown schets van underarmour">
 <img src="images/4.png" width="375px" alt="Breakdown schets van underarmour">
 <img src="images/5.png" width="375px" alt="Breakdown schets van underarmour">
+
+kleine dingen zoals het logo en wit ruimte rechts werkt niet zo goed :(
 
 
 ### Agenda voor meeting
