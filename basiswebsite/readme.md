@@ -53,11 +53,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
  
 -samen met je groepje opstellen-
 
-| Charlie                                            | Emma                             | martijn             | Nine                                                  | Jon
-| ---            | ---                | ---          | ---              |
-| w3c validator  | waarop letten responsive font probleem| classes van tweede pagina    | w3c validator css background image header| header probleempje en rechts heel raar gelined
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Emma | Jon | Charlie | Nine | Martijn |
+| --- | --- | --- | --- | --- |
+| Waarop letten bij responsive | w3c validator | w3c validator | w3c validator | :nth-of-type |
+| font probleem | header probleem | ... | background-image | ... |
+| w3c validator | ... | ... | ... | ... |
 
 ### Verslag van meeting
 
