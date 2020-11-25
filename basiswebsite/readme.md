@@ -45,12 +45,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
 ### Agenda voor meeting
-
+ 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Charlie        | Emma                | martijn     | Nine             | Jon
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| w3c validator  | waarop letten responsive font probleem| classes van tweede pagina    | w3c validator css background image header| header probleempje en rechts heel raar gelined
 | an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
