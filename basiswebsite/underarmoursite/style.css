@@ -1,0 +1,749 @@
+* {
+  margin:0;
+  padding:0;
+
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  border-bottom: 1px solid lightgrey;
+
+}
+header img {
+  height:2em;
+}
+
+
+
+
+
+
+header ul:nth-of-type(1) {
+  display:flex;
+  flex-wrap:wrap;
+
+
+
+}
+ header ul:nth-of-type(1) li {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+header ul:nth-of-type(1) li:first-of-type {
+  flex-grow: 1;
+
+  padding: 0;
+
+}
+
+header ul:nth-of-type(1) li:nth-of-type(2){
+    margin-left:1em;
+    margin-right:1em;
+
+}
+header ul:nth-of-type(1) li:last-of-type{
+  margin-left:.5em;
+  margin-right:.5em;
+
+}
+.logo{
+  display:flex;
+  justify-content: center;
+
+
+
+
+}
+/* section 1 */
+main {
+
+}
+main img{
+  width:100%;
+  height:auto;
+}
+
+main section:nth-of-type(1) h1{
+  font-size: 1em;
+  text-align: center;
+  padding: 1em;
+
+}
+
+main section:nth-of-type(1) h2{
+  font-size: 1.4em;
+  max-width: 98%;
+  text-align: center;
+
+
+}
+
+main section:nth-of-type(1) p:nth-of-type(1){
+  font-size: 1em;
+  text-align: center;
+  padding-left:8px;
+  padding-right:8px;
+  padding: 1em;
+
+}
+
+main section:nth-of-type(1) a p {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2%;
+  margin: .5em;
+  margin-left: 17%;
+  margin-right: 17%;
+
+}
+
+/* section 2 */
+
+main section:nth-of-type(2) h1{
+  font-size: 1em;
+  text-align: center;
+margin-top:3em;
+margin-bottom: 1em;
+font-style: normal;
+
+}
+
+main section:nth-of-type(2) h2{
+  font-size: 1.4em;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+main section:nth-of-type(2) ul{
+  display:flex;
+  flex-wrap:wrap;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: .5em;
+  font-size: .9em;
+  margin-bottom: 1.5em;
+}
+
+main section:nth-of-type(2) ul li{
+
+  border: 1px solid black;
+  justify-content: center;
+  flex-grow: 1;
+  width: 30%;
+  margin:.5em;
+  padding: .45em  1.2em;
+
+}
+
+/* sectoin 3 */
+
+
+
+
+
+main section:nth-of-type(3) h2{
+  font-size: 1.4em;
+  text-align: center;
+  margin-left: .4em;
+  margin-right: .4em;
+  max-width: 95%;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+main section:nth-of-type(3) p:nth-of-type(1){
+  font-size: 1em;
+  text-align: center;
+  padding-left:8px;
+  padding-right:8px;
+  margin-bottom: 1em;
+
+
+}
+
+main section:nth-of-type(3) a p {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2%;
+  margin-left: 23%;
+  margin-right: 23%;
+
+}
+/*section 4 */
+
+main section:nth-of-type(4) h2{
+  font-size: 1.4em;
+  text-align: center;
+  margin-left: .4em;
+  margin-right: .4em;
+  max-width: 95%;
+  padding: .5em;
+}
+
+main section:nth-of-type(4) p:nth-of-type(1){
+  font-size: 1em;
+  text-align: center;
+  padding-left:8px;
+  padding-right:8px;
+  margin-bottom: .5em;
+
+}
+
+main section:nth-of-type(4) a p {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2%;
+  margin-left: 23%;
+  margin-right: 23%;
+  margin-bottom: 1em;
+}
+
+/* section 5 */
+
+main section:nth-of-type(5) h2{
+  font-size: 1.4em;
+  text-align: center;
+  max-width: 98%;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+}
+
+main section:nth-of-type(5) ul{
+  display:flex;
+  flex-wrap:wrap;
+  text-align:center;
+  justify-content: flex-start;
+  list-style-type: none;
+
+  font-size: .9em;
+
+}
+
+main section:nth-of-type(5) ul li{
+
+  border: 1px solid black;
+  justify-content: center;
+  flex-grow: 1;
+  width: 30%;
+  margin:.5em;
+  padding: .45em  1.2em;
+
+
+}
+
+/* section 6 */
+main section:nth-of-type(6) ul {
+  display:flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+main section:nth-of-type(6) ul li:nth-of-type(1) {
+flex-grow: 6;
+
+}
+main section:nth-of-type(6) ul li:nth-of-type(2) {
+
+
+}
+/* section 7 */
+/*https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6*/
+.BT {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+main section:nth-of-type(7) {
+  overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom:4em;
+
+
+}
+
+main section:nth-of-type(7) div{
+display: inline-block;
+
+}
+
+main section:nth-of-type(7) div h1 {
+text-align: center;
+font-weight: lighter;
+}
+
+main section:nth-of-type(7) div h2 {
+text-align: center;
+font-weight: normal;
+}
+
+main section:nth-of-type(7) div p {
+text-align: center;
+font-weight: normal;
+}
+
+main section:nth-of-type(7) div img {
+
+}
+/* SECTION 8 */
+
+main section:nth-of-type(8) {
+
+}
+
+main section:nth-of-type(8) h1 {
+  margin-left: .5em;
+  font-size: 1em;
+}
+
+main section:nth-of-type(8) form {
+  align-items: center;
+}
+
+main section:nth-of-type(8) form input:nth-of-type(1){
+  background-color:white;
+  border: 1px solid black;
+  padding: 1em;
+  width: 65%;
+
+  margin: 0;
+    margin-left: .5em;
+}
+
+main section:nth-of-type(8) form input:nth-of-type(2){
+  background-color:black;
+  border: 1px solid black;
+  padding: 1em;
+  width: 30%;
+  margin: 0;
+  color: white;
+}
+/*footer*/
+
+footer {
+  background-color: #F0F0F0;
+  margin: 0;
+  padding:0;
+
+}
+
+footer ul {
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+
+}
+
+footer img {
+  max-height: 2.5em;
+}
+
+footer ul li {
+  padding: 1em;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  word-spacing: 1em;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+footer p:nth-of-type(2){
+  font-size: .7em;
+  color: grey;
+}
+
+
+/* DETAIL PAGINA */
+
+.Detail section:nth-of-type(1) h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Detail section:nth-of-type(1) ul{
+  display:flex;
+  flex-wrap:wrap;
+  text-align:left;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: .5em;
+  font-size: .7em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1.5em;
+
+}
+
+.Detail section:nth-of-type(1) ul li{
+
+  border: 1px solid black;
+  justify-content: flex-start;
+  flex-grow: 1;
+  width: 30%;
+  margin:.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: .5em;
+
+}
+
+.Detail section:nth-of-type(1) ul li:nth-of-type(1){
+
+color: white;
+background-color: black;
+
+}
+
+.Detail section:nth-of-type(1) h2 {
+  text-align: left;
+  font-size: 1em;
+  margin-left: 1em;
+  font-weight: normal;
+}
+
+/* section 2 detail */
+
+.Detail section:nth-of-type(2) {
+
+}
+
+.Detail section:nth-of-type(2) h1 {
+  margin-left: .5em;
+  font-size: 1em;
+}
+
+.Detail section:nth-of-type(2) form {
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Detail section:nth-of-type(2) form input:nth-of-type(1){
+  background-color:white;
+  border: 1px solid black;
+  padding: .5em;
+
+
+}
+
+.Detail section:nth-of-type(2) form input:nth-of-type(2){
+  background-color: blue;
+  border: 1px solid white;
+  padding: .5em;
+
+
+  color: white;
+}
+
+.Detail section:nth-of-type(2) h1 {
+  font-size: 1.5em;
+  color: lightgrey;
+}
+
+.Detail section:nth-of-type(2) h2 {
+  font-size: .7em;
+  color: lightgrey;
+  margin-top: -2em;
+}
+
+.Detail section:nth-of-type(3) ul {
+display: flex;
+flex-wrap: wrap;
+margin-left: .7em;
+margin-right: .7em;
+list-style: none;
+justify-content: space-around;
+}
+
+.Detail section:nth-of-type(3) ul img {
+
+}
+/*PRODUCT 1*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(1){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(1) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(1) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(1) p{
+  background-color: blue;
+  padding: .6em;
+  width: .9em;
+
+}
+/*PRODUCT 2*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(2){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(2) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(2) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 3*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(3){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(3) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(3) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 4*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(4){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(4) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(4) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 5*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(5){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(5) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(5) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+
+/*PRODUCT 6*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(6){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(6) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(6) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/* Tekst 1 */
+.Detail section:nth-of-type(3) ul li:nth-of-type(7){
+max-width: 45%;
+margin-bottom: 3em;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(7) h1 {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(7) h2 {
+  text-align: left;
+  font-size: .65em;
+  font-weight: normal;
+
+}
+
+
+/*PRODUCT 7*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(8){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(8) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(8) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 8*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(9){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(9) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(9) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 9*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(10){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(10) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(10) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 10*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(11){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(11) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(11) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 11*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(12){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(12) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(12) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+/*PRODUCT 12*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(13){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(13) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(13) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
+
+
+/*PRODUCT 13*/
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(14){
+max-width: 45%;
+margin-bottom: 3em;
+}
+.Detail section:nth-of-type(3) ul li:nth-of-type(14) h1{
+  text-align: center;
+  font-size: .7em;
+  font-weight: normal;
+}
+
+.Detail section:nth-of-type(3) ul li:nth-of-type(14) h2{
+  text-align: center;
+  font-size: .7em;
+
+}
