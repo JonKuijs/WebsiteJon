@@ -32,7 +32,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 Motivatie is gedaald en lastig om er verder aan te gaan tweede pagina komt goed op weg maar moet nog veel lastige dingen zoals javascript gaan doen. basis gaat meestal prima als ik er voor ga zitten maar de lastige dingen stel ik uit
 
-<img src="progressie.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/progressie.png" width="375px" alt="Breakdown schets van underarmour">
 
 
 
