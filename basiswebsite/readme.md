@@ -29,6 +29,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
+### Stand van zaken
+Motivatie is gedaald en lastig om er verder aan te gaan tweede pagina komt goed op weg maar moet nog veel lastige dingen zoals javascript gaan doen
 
 -same as voortgang 1-
 
