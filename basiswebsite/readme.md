@@ -25,6 +25,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 3 (week 6)
 
 -same as voortgang 1-
+Surfaceplane besproken
+- Hamburger menu uitklapbaar./filter (komt op het zelfde neer)
+- Zoekbalk klapt uit
+- Email validatie (states)
+- Kleur veranderen producten
+- Pijltje naar boven kant van de pagina.
 
 
 
