@@ -18,7 +18,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-<img src="images/1.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind1.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind2.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind3.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind4.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind5.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind6.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind7.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind8.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind9.png" width="375px" alt="Breakdown schets van underarmour">
+<img src="images/eind10.png" width="375px" alt="Breakdown schets van underarmour">
 
 
 
