@@ -6,15 +6,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1.  container scroller https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6
+2.  omhoog scroll knop https://www.youtube.com/watch?v=Vef9bxTilCU
+3.  Kleur switchen onder producten https://www.youtube.com/watch?v=9Irz0c-6UGw
+4.  Javascript hamburger menu met hulp van martijn
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+De stijling van basis dingen gingen wel goed en als ik bezig was had ik er ook wel plezier in. Alleen liep ik vaak tegen problemen aan zoals complexe dingen die ik nog nooit heb gedaan en dan ook niet altijd even veel aan het internet had om dat iedereen javascript inline doet maar voor de meeste dingen hielp lang genoeg zoeken.
 
 **Screenshot(s):**
 
