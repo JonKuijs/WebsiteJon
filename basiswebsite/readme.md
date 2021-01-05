@@ -18,7 +18,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/1.png" width="375px" alt="Breakdown schets van underarmour">
 
 
 
