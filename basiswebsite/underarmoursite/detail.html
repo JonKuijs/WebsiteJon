@@ -6,16 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="java.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
 
 </head>
 <body>
+
   <header>
-    <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo underarmour"></a>
+
     <ul>
         <li>  <a href="index.html"><img src="images/hamburger.png" alt="logo underarmour"></a></li>
-        <li>  <a href="index.html"><img src="images/zoeken.png" alt="logo underarmour"></a></li>
+        <li>  <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo underarmour"></a></li>
+
+        <li> <a href="index.html">  <img src="images/zoeken.png" alt="logo underarmour"></a>
+          <!--<input class="tekst" type="text" name="" placeholder="Zoeken">
+          <a class="knop" href="#"></a>-->
+
+
+        </li>
+
         <li>  <a href="index.html"><img src="images/mandje.png" alt="logo underarmour"></a></li>
     </ul>
   </header>
@@ -37,52 +47,152 @@
       <section>
         <h1>THROUGH THE WORK</h1>
         <h2>Ontvang updates over Project Rock, koptelefoon, andere UA-innovaties en exclusieve aanbiedingen</h2>
-        <form action="./" method="post">
-          <input type="search" placeholder="Email adres">
-               <input type="submit" value="MELD JE AAN">
+        <div id="error"></div>
+        <form action="#" id="form" method="GET">
+
+          <input required type="text" id="email" placeholder="Email adres">
+
+
+          <input type="submit" value="MELD JE AAN">
+
 
         </form>
+
       </section>
 
       <section>
         <ul>
           <!--- product 1 -->
-          <li><img src="images/PJR1.png" alt="">
-              <p><a href=""> </a></p>
+          <li><div class=colorselectiep0>
+            <div class="slides0">
+              <input type="radio" name="r" id="r01" checked>
+              <input type="radio" name="r" id="r0">
+              <div class="slide0 s0">
+                <img src="images/PJR1.png" alt="">
+              </div>
+              <div class="slide0">
+                <img src="images/PJR1.png" alt="">
+              </div>
+            </div>
+            <div class="navigation0">
+              <label for="r01" class="bar0"></label>
+              <label for="r0" class="bar0"></label>
+            </div>
+          </div>
+
+
               <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
               <h2>€ 35,00</h2>
           </li>
 
           <!--- product 2 -->
-          <li><img src="images/PJR2.png" alt="">
+          <li>
+        <div class=colorselectiep1>
+          <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <div class="slide s1">
+              <img src="images/PJR2.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="images/PJR2.1.png" alt="">
+            </div>
+          </div>
+          <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+          </div>
+        </div>
 
               <h1>Herentrainingsschoenen UA Project Rock 3</h1>
               <h2>€ 140,00</h2>
           </li>
 
           <!--- product 3 -->
-          <li><img src="images/PJR3.png" alt="">
+          <li><div class=colorselectiep2>
+            <div class="slides2">
+              <input type="radio" name="r" id="r3" checked>
+              <input type="radio" name="r" id="r4">
+              <div class="slide2 s2">
+                <img src="images/PJR3.png" alt="">
+              </div>
+              <div class="slide2">
+                <img src="images/PJR3.1.png" alt="">
+              </div>
+            </div>
+            <div class="navigation2">
+              <label for="r3" class="bar2"></label>
+              <label for="r4" class="bar2"></label>
+            </div>
+          </div>
 
               <h1>Herentrainingsjack Project Rock Knit</h1>
               <h2>€ 70,00</h2>
           </li>
 
           <!--- product 4 -->
-          <li><img src="images/PJR4.png" alt="">
+          <li><div class=colorselectiep3>
+            <div class="slides3">
+              <input type="radio" name="r" id="r5" checked>
+              <input type="radio" name="r" id="r6">
+              <div class="slide3 s3">
+                <img src="images/PJR4.png" alt="">
+              </div>
+              <div class="slide3">
+                <img src="images/PJR4.1.png" alt="">
+              </div>
+            </div>
+            <div class="navigation3">
+              <label for="r5" class="bar3"></label>
+              <label for="r6" class="bar3"></label>
+            </div>
+          </div>
 
               <h1>Damesshirt Project Rock Charged Cotton® Fleece met ronde hals</h1>
               <h2>€ 70,00</h2>
           </li>
 
           <!--- product 5 -->
-          <li><img src="images/PJR5.png" alt="">
+          <li>
+            <div class=colorselectiep4>
+              <div class="slides4">
+                <input type="radio" name="r" id="r7" checked>
+                <input type="radio" name="r" id="r8">
+                <div class="slide4 s4">
+                  <img src="images/PJR5.png" alt="">
+                </div>
+                <div class="slide4">
+                  <img src="images/PJR5.1.png" alt="">
+                </div>
+              </div>
+              <div class="navigation4">
+                <label for="r7" class="bar4"></label>
+                <label for="r8" class="bar4"></label>
+              </div>
+            </div>
 
               <h1>Damesbroek Project Rock Charged Cotton® Fleece</h1>
               <h2>€ 80,00</h2>
           </li>
 
           <!--- product 6 -->
-          <li><img src="images/PJR6.png" alt="">
+          <li>
+            <div class=colorselectiep5>
+              <div class="slides5">
+                <input type="radio" name="r" id="r9" checked>
+                <input type="radio" name="r" id="r10">
+                <div class="slide5 s5">
+                  <img src="images/PJR6.png" alt="">
+                </div>
+                <div class="slide5">
+                  <img src="images/PJR6.png" alt="">
+                </div>
+              </div>
+              <div class="navigation5">
+                <label for="r9" class="bar5"></label>
+                <label for="r10" class="bar5"></label>
+              </div>
+            </div>
 
               <h1>Herenhoodie Project Rock Charged Cotton® zonder mouwen</h1>
               <h2>€ 65,00</h2>
@@ -98,49 +208,161 @@
           </li>
 
           <!--- product 7 -->
-          <li><img src="images/PJR7.png" alt="">
+          <li>
+            <div class=colorselectiep6>
+              <div class="slides6">
+                <input type="radio" name="r" id="r11" checked>
+                <input type="radio" name="r" id="r12">
+                <div class="slide6 s6">
+                  <img src="images/PJR7.png" alt="">
+                </div>
+                <div class="slide6">
+                  <img src="images/PJR7.1.png" alt="">
+                </div>
+              </div>
+              <div class="navigation6">
+                <label for="r11" class="bar6"></label>
+                <label for="r12" class="bar6"></label>
+              </div>
+            </div>
 
               <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
               <h2>€ 35,00</h2>
           </li>
 
           <!--- product 8 -->
-          <li><img src="images/PJR8.png" alt="">
+          <li>
+            <div class=colorselectiep7>
+              <div class="slides7">
+                <input type="radio" name="r" id="r13" checked>
+                <input type="radio" name="r" id="r14">
+                <div class="slide7 s7">
+                  <img src="images/PJR8.png" alt="">
+                </div>
+                <div class="slide7">
+                  <img src="images/PJR8.1.png" alt="">
+                </div>
+              </div>
+              <div class="navigation7">
+                <label for="r13" class="bar7"></label>
+                <label for="r14" class="bar7"></label>
+              </div>
+            </div>
 
               <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
               <h2>€ 35,00</h2>
           </li>
 
               <!--- product 9 -->
-              <li><img src="images/PJR9.png" alt="">
+              <li>
+                <div class=colorselectiep8>
+                  <div class="slides8 ">
+                    <input type="radio" name="r" id="r15" checked>
+                    <input type="radio" name="r" id="r16">
+                    <div class="slide8 s8">
+                      <img src="images/PJR9.png" alt="">
+                    </div>
+                    <div class="slide8">
+                      <img src="images/PJR9.1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="navigation8">
+                    <label for="r15" class="bar8"></label>
+                    <label for="r16" class="bar8"></label>
+                  </div>
+                </div>
 
                   <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
                   <h2>€ 35,00</h2>
               </li>
 
               <!--- product 10 -->
-              <li><img src="images/PJR10.png" alt="">
+              <li>
+                <div class=colorselectiep9>
+                  <div class="slides9 ">
+                    <input type="radio" name="r" id="r17" checked>
+                    <input type="radio" name="r" id="r18">
+                    <div class="slide9 s9">
+                      <img src="images/PJR10.png" alt="">
+                    </div>
+                    <div class="slide9">
+                      <img src="images/PJR10.png" alt="">
+                    </div>
+                  </div>
+                  <div class="navigation9">
+                    <label for="r17" class="bar9"></label>
+                    <label for="r18" class="bar9"></label>
+                  </div>
+                </div>
 
                   <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
                   <h2>€ 35,00</h2>
               </li>
 
               <!--- product 11 -->
-              <li><img src="images/PJR11.png" alt="">
+              <li>
+                <div class=colorselectiep10>
+                  <div class="slides10 ">
+                    <input type="radio" name="r" id="r19" checked>
+                    <input type="radio" name="r" id="r20">
+                    <div class="slide10 s10">
+                      <img src="images/PJR11.png" alt="">
+                    </div>
+                    <div class="slide10">
+                      <img src="images/PJR11.1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="navigation10">
+                    <label for="r19" class="bar10"></label>
+                    <label for="r20" class="bar10"></label>
+                  </div>
+                </div>
 
                   <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
                   <h2>€ 35,00</h2>
               </li>
 
               <!--- product 12 -->
-              <li><img src="images/PJR12.png" alt="">
+              <li>
+                <div class=colorselectiep11>
+                  <div class="slides11 ">
+                    <input type="radio" name="r" id="r21" checked>
+                    <input type="radio" name="r" id="r22">
+                    <div class="slide11 s11">
+                      <img src="images/PJR12.png" alt="">
+                    </div>
+                    <div class="slide11">
+                      <img src="images/PJR12.1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="navigation11">
+                    <label for="r21" class="bar11"></label>
+                    <label for="r22" class="bar11"></label>
+                  </div>
+                </div>
 
                   <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
                   <h2>€ 35,00</h2>
               </li>
 
               <!--- product 13 -->
-              <li><img src="images/PJR13.png" alt="">
+              <li>
+                <div class=colorselectiep12>
+                  <div class="slides12 ">
+                    <input type="radio" name="r" id="r23" checked>
+                    <input type="radio" name="r" id="r24">
+                    <div class="slide12 s12">
+                      <img src="images/PJR13.png" alt="">
+                    </div>
+                    <div class="slide11">
+                      <img src="images/PJR13.1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="navigation12">
+                    <label for="r23" class="bar12"></label>
+                    <label for="r24" class="bar12"></label>
+                  </div>
+                </div>
 
                   <h1>Herenshirt Project Rock Break Through met korte mouwen</h1>
                   <h2>€ 35,00</h2>
@@ -149,10 +371,15 @@
         </ul>
       </section>
 
+      <section>
+         <a href="#"><img src="images/up-arrow.svg" alt="pijltje omhoog"></a>
+      </section>
+
 
   </main>
 
   <footer>
+
     <ul>
       <li><a href=""><img src="images/footerfoto1.png" alt=""></a></li>
       <li><a href=""><img src="images/footerfoto2.png" alt=""></a></li>

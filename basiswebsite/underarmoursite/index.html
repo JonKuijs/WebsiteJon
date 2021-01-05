@@ -7,16 +7,35 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo underarmour"></a>
+<nav>
     <ul>
-        <li>  <a href="index.html"><img src="images/hamburger.png" alt="logo underarmour"></a></li>
+        <li>  <a id="hamburger"><img src="images/hamburger.png" alt="logo underarmour"></a></li>
+        <li>  <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo underarmour"></a></li>
         <li>  <a href="index.html"><img src="images/zoeken.png" alt="logo underarmour"></a></li>
         <li>  <a href="index.html"><img src="images/mandje.png" alt="logo underarmour"></a></li>
     </ul>
+    <!-- hulp van martijn met java gedeelte van uitklap menu-->
+    <ul id="menu">
+      <li>Nieuwe collectie </li>
+      <li>Schoenen </li>
+      <li>Heren </li>
+      <li>Dames </li>
+      <li>Kinderen </li>
+      <li>Outlet </li>
+      <li>LOCATIEWIJZIGEN </li>
+      <li>Nederlands</li>
+      <li>English</li>
+      <li>Winkelzoeker </li>
+      <li>Bestelling volgen </li>
+      <li>Contact </li>
+      <li>Bedrijfsinfo </li>
+    </ul>
+    </nav>
   </header>
   <main>
     <section>
@@ -67,47 +86,55 @@
     </section>
     <section>
       <!-- article met 4 sections er in display flex justify content -->
-      <ul>
+
+        <ul>
         <li><a href="BESTSELLERS">BESTSELLERS</a></li>
         <li><a href="+">+</a></li>
+        </ul>
+        <ul>
         <li><a href="HEREN">HEREN</a></li>
         <li><a href="+"></a>+</li>
+        </ul>
+        <ul>
         <li><a href="DAMES"></a>DAMES</li>
         <li><a href="+"></a>+</li>
+        </ul>
+        <ul>
         <li><a href="TRENDING">TRENDING</a></li>
         <li><a href="+"></a>+</li>
-      </ul>
+        </ul>
+
     </section>
       <h1 class="BT">BESTVERKOCHTE TRENDS</h1>
      <section>
         <div><img src="images/fotoC1.png" alt="">
         <h1>Herenboxer UA Tech</h1>
         <h2>30,00 €</h2>
-        <p>beoordeling</p>
+        <p>★★★★★</p>
         </div>
 
         <div><img src="images/fotoC2.png" alt="">
-        <h1>Herenboxer UA Tech</h1>
-        <h2>30,00 €</h2>
-        <p>beoordeling</p>
+        <h1>Herenbroek UA Sportstyle</h1>
+        <h2>40,00 €</h2>
+        <p>★★★★☆</p>
         </div>
 
         <div><img src="images/fotoC3.png" alt="">
-        <h1>Herenboxer UA Tech</h1>
+        <h1>UA Sportmask</h1>
         <h2>30,00 €</h2>
-        <p>beoordeling</p>
+        <p>★★★★★</p>
         </div>
 
         <div><img src="images/fotoC4.png" alt="">
-        <h1>Herenboxer UA Tech</h1>
-        <h2>30,00 €</h2>
-        <p>beoordeling</p>
+        <h1>Heren T-shirt UA Tech</h1>
+        <h2>20,00 €</h2>
+        <p>★★★★☆</p>
         </div>
 
         <div><img src="images/fotoC5.png" alt="">
-        <h1>Herenboxer UA Tech</h1>
-        <h2>30,00 €</h2>
-        <p>beoordeling</p>
+        <h1>Herenjack UA Sportstyle</h1>
+        <h2>50,00 €</h2>
+        <p>★★★☆☆</p>
         </div>
      </section>
     <section>
@@ -132,6 +159,7 @@
     <p>Cookiebeleid</p>
     <p>© 2020 Under Armour, Inc. Alle rechten voorbehouden.</p>
   </footer>
-
+<script src="java.js"></script>
 </body>
+
 </html>
